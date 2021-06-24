@@ -26,7 +26,7 @@ const FunctionForm = (props) => {
     <div className="form">
       <h4>Funtion Form</h4>
       <form onSubmit={handleSubmit}>
-        Name <br />
+        FullName <br />
         <input
           className="form__input"
           type="text"
