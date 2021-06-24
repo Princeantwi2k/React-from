@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import ClassForm from './Component/ClassComponent/ClassForm';
+import FucntionForm from './Component/FucntionComponent/FucntionForm';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <FucntionForm 
+      name={'qwajo monies'}
+      email ={'example@gamil.com'}
+      password = {'password'}
+      />
+      <hr/>
+      <ClassForm 
+      name={'ephyah fosuwaa'}
+      email ={'example@yahoo.com'}
+      password ={'password'}
+      />
     </div>
   );
 }
